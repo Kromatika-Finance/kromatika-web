@@ -31,13 +31,8 @@ const Navbar = () => {
     }, [scrollPosition]);
 
     const onButtonClick = () => {
-        const input = prompt("Type 'test'");
-
-        if (input.toLowerCase().trim() === 'test') {
-            alert('It works!');
-        } else {
-            alert("Doesn't work");
-        }
+        // TODO: Fix this
+        alert('TODO: Fix me up!');
     };
 
     return (

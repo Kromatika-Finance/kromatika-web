@@ -4,7 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 
-import Navbar from './components/NavBar';
+import Navbar from './components/header/NavBar';
 import Landing from './views/Landing';
 
 ReactDOM.render(
