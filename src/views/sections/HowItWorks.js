@@ -20,7 +20,7 @@ const HowItWorks = ({ elRef }) => {
                     How it works
                 </h2>
 
-                <div className="container mx-auto flex justify-around">
+                <div className="container mx-auto flex flex-wrap justify-around">
                     <img src={processSvg} alt="describes the yield farming process" />
 
                     <p className="w-2/5 text-2xl">

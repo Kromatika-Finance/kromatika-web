@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @import url('http://fonts.cdnfonts.com/css/gotham');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
@@ -68,15 +75,15 @@ a.text-yellow:hover > i {
 
 /* SECTIONS */
 #hero {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.4))),
-    url(assets/img/hero-absolute-vision.jpg) no-repeat center center fixed;
     background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
-    url(assets/img/hero-absolute-vision.jpg) no-repeat center center fixed;
+    url(assets/img/hero-absolute-vision.webp) no-repeat center center fixed;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.4))),
+    url(assets/img/hero-absolute-vision.webp) no-repeat center center fixed;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
-    url(assets/img/hero-absolute-vision.jpg) no-repeat center center fixed;
+    url(assets/img/hero-absolute-vision.webp) no-repeat center center fixed;
     /*background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)),*/
     /*conic-gradient(from 180deg at 50% 50%, rgba(18, 178, 255, 0.3) 0deg, rgba(17, 19, 22, 0) 56.25deg, rgba(18, 178, 255, 0.3) 360deg),*/
-    /*url(./assets/img/hero-absolute-vision.jpg) no-repeat center center fixed;*/
+    /*url(./assets/img/hero-absolute-vision.webp) no-repeat center center fixed;*/
     background-size: cover;
     height: 100vh;
     mix-blend-mode: multiply;
@@ -85,16 +92,18 @@ a.text-yellow:hover > i {
 
 #howItWorks {
     background-color: var(--bg-color-primary);
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
 }
 
 #features {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.4))),
-    url(assets/img/market-prices.jpg) no-repeat center center fixed;
     background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
-    url(assets/img/market-prices.jpg) no-repeat center center fixed;
+    url(assets/img/market-prices.webp) no-repeat center center fixed;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.4))),
+    url(assets/img/market-prices.webp) no-repeat center center fixed;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
-    url(assets/img/market-prices.jpg) no-repeat center center fixed;
+    url(assets/img/market-prices.webp) no-repeat center center fixed;
 }
 
 .feature-card {
@@ -103,6 +112,8 @@ a.text-yellow:hover > i {
 
 #benefits {
     background-color: var(--bg-color-primary);
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
 }
 

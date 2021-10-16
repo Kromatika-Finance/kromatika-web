@@ -20,7 +20,7 @@ const Benefits = () => {
                     Benefits
                 </h2>
 
-                <div className="container mx-auto flex justify-around">
+                <div className="container mx-auto flex flex-wrap justify-around">
                     <p className="w-2/5 text-2xl">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autumn distinctio dolore ducimus et ex
                         harum hic, iure labore laudanum magni natus nihil, magni natus nihil, magni natus nihil, nobs
