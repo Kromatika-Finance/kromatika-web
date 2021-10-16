@@ -2,6 +2,8 @@ import Radium, { StyleRoot } from 'radium';
 import React, { useEffect, useState } from 'react';
 import { pulse } from 'react-animations';
 
+import logo from '../../assets/img/logo.svg';
+
 const styles = {
     pulse: {
         animation: '1s infinite',
@@ -44,11 +46,14 @@ const Navbar = () => {
                 <div className="w-full relative flex justify-between md:w-auto md:static md:block md:justify-start">
                     <a
                         id="brand"
-                        className="text-white text-3xl font-bold leading-relaxed inline-block mr-4 py-2
+                        className="text-white text-3xl flex-row	font-bold align-middle leading-relaxed inline-block mr-4 py-2
 						            whitespace-nowrap uppercase"
                         href="/landing"
                     >
-                        Kromatika
+                        <span className="inline-block align-middle">
+                            <img src={logo} alt="logo" style={{ width: '40px', height: 'auto' }} />
+                        </span>
+                        <span className="inline-block self-baseline align-middle ml-5">Kromatika</span>
                     </a>
 
                     <button
