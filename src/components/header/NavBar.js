@@ -1,6 +1,7 @@
 import Radium, { StyleRoot } from 'radium';
 import React, { useEffect, useState } from 'react';
 import { pulse } from 'react-animations';
+import { HashLink } from 'react-router-hash-link';
 
 import logo from '../../assets/img/logo.svg';
 
@@ -32,11 +33,6 @@ const Navbar = () => {
         };
     }, [scrollPosition]);
 
-    const onButtonClick = () => {
-        // TODO: Fix this
-        alert('TODO: Fix me up!');
-    };
-
     return (
         <nav
             className={`top-5 z-50 w-full flex flex-wrap items-center justify-between fixed px-2 py-3 overflow-visible 
@@ -44,17 +40,17 @@ const Navbar = () => {
         >
             <div className="container mx-auto px-8 flex flex-wrap items-center uppercase bold justify-between">
                 <div className="w-full relative flex justify-between md:w-auto md:static md:block md:justify-start">
-                    <a
+                    <HashLink
                         id="brand"
                         className="text-white text-3xl flex-row	font-bold align-middle leading-relaxed inline-block mr-4 py-2
 						            whitespace-nowrap uppercase"
-                        href="/landing"
+                        to="/landing"
                     >
                         <span className="inline-block align-middle">
                             <img src={logo} alt="logo" style={{ width: '40px', height: 'auto' }} />
                         </span>
                         <span className="inline-block self-baseline align-middle ml-5">Kromatika</span>
-                    </a>
+                    </HashLink>
 
                     <button
                         className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent
@@ -74,72 +70,67 @@ const Navbar = () => {
                 >
                     <ul className="flex flex-col lg:flex-row list-none ml-auto">
                         <li className="flex items-center">
-                            <a
+                            <HashLink
                                 className="lg:text-white text-yellow px-3 py-4 lg:py-2 flex items-center text-xl
                                 uppercase font-bold link-underline"
-                                href="#header"
+                                to="#header"
                             >
                                 Home
-                            </a>
+                            </HashLink>
                         </li>
                         <li className="flex items-center">
-                            <a
+                            <HashLink
                                 className="lg:text-white text-yellow px-3 py-4 lg:py-2 flex items-center text-xl
                                 uppercase font-bold link-underline"
-                                href="#howItWorks"
+                                to="#howItWorks"
                             >
                                 How it works
-                            </a>
+                            </HashLink>
                         </li>
                         <li className="flex items-center">
-                            <a
+                            <HashLink
                                 className="lg:text-white text-yellow px-3 py-4 lg:py-2 flex items-center text-xl
                                 uppercase font-bold link-underline"
-                                href="#features"
+                                to="#features"
                             >
                                 Features
-                            </a>
+                            </HashLink>
                         </li>
                         <li className="flex items-center">
-                            <a
+                            <HashLink
                                 className="lg:text-white text-yellow px-3 py-4 lg:py-2 flex items-center text-xl
                                 uppercase font-bold link-underline"
-                                href="#benefits"
+                                to="#benefits"
                             >
                                 Benefits
-                            </a>
+                            </HashLink>
                         </li>
                         <li className="flex items-center">
-                            <a
+                            <HashLink
                                 className="lg:text-white text-yellow px-3 py-4 lg:py-2 flex items-center text-xl
                                 uppercase font-bold link-underline"
-                                href="#gov"
-                            >
-                                Gov
-                            </a>
-                        </li>
-                        <li className="flex items-center">
-                            <a
-                                className="lg:text-white text-yellow px-3 py-4 lg:py-2 flex items-center text-xl
-                                uppercase font-bold link-underline"
-                                href="/docs"
+                                to="/docs"
+                                target="_blank"
+                                rel="noopener noreferrer"
                             >
                                 Docs
                                 <i className="lg:text-white text-yellow far fa-file-alt text-lg leading-lg ml-2" />
-                            </a>
+                            </HashLink>
                         </li>
                     </ul>
                     <StyleRoot>
-                        <button
+                        <a
+                            href="/app"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="bg-gray-900 text-xl font-bold uppercase px-6 py-4 rounded-sm shadow
                             hover:shadow-xl btn btnConnectWallet bg-yellow outline-none focus:outline-none
                             lg:mr-1 lg:mb-0 ml-3 mb-3"
                             type="button"
                             style={styles.pulse}
-                            onClick={onButtonClick}
                         >
-                            <i className="fas fa-wallet mr-1" /> Connect Wallet
-                        </button>
+                            <i className="fas fa-wallet mr-1" /> Enter App
+                        </a>
                     </StyleRoot>
                 </div>
             </div>
