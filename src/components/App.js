@@ -25,10 +25,6 @@ const App = () => {
                         <div className="twelve wide right floated column" style={{ color: '#fff', textAlign: 'right' }}>
                             <span className="six wide column">
                                 <i
-                                    className="fas fa-sun fa-2x"
-                                    style={{ verticalAlign: 'middle', margin: '0 1rem', color: '#12B2FF' }}
-                                />
-                                <i
                                     className="fas fa-receipt fa-2x"
                                     style={{
                                         verticalAlign: 'middle',
@@ -36,24 +32,45 @@ const App = () => {
                                         color: '#12B2FF'
                                     }}
                                 />
+                                <i
+                                    className="fas fa-sun fa-2x"
+                                    style={{ verticalAlign: 'middle', margin: '0 1rem', color: '#12B2FF' }}
+                                />
                             </span>
                             <span className="ten wide column">
                                 <img
                                     className="inline-block"
                                     src={metamask}
                                     alt="metamask logo"
-                                    style={{ width: '40px', height: 'auto', marginLeft: '1rem' }}
+                                    style={{ width: '40px', height: 'auto', marginLeft: '.5rem' }}
                                 />
-                                <div className="ui inline-block form" style={{ verticalAlign: 'middle' }}>
-                                    <div className="disabled field" style={{ width: '20rem' }}>
-                                        <input type="text" placeholder="Not Connected" />
+                                <div
+                                    className="ui inline-block form"
+                                    style={{ verticalAlign: 'middle', backgroundColor: 'transparent' }}
+                                >
+                                    <div
+                                        style={{ width: '25rem', borderRadius: '3px !important' }}
+                                        className="ui rounded action input"
+                                    >
+                                        <input
+                                            disabled
+                                            type="text"
+                                            value="Ethereum address"
+                                            style={{ marginLeft: '0', borderRadius: '100px !important' }}
+                                        />
+                                        <button
+                                            className="ui right labeled icon button"
+                                            style={{ marginLeft: '-78px', backgroundColor: '#12B2FF' }}
+                                        >
+                                            <i className="copy icon" />
+                                            Copy
+                                        </button>
                                     </div>
                                 </div>
                             </span>
                         </div>
                     </div>
                 </div>
-
                 {/* Responsive Menu */}
                 <nav className="ui raised segment" style={{ marginTop: '20px', backgroundColor: '#21272D' }}>
                     <div className="ui container">
@@ -67,8 +84,7 @@ const App = () => {
                         </button>
                     </div>
                 </nav>
-
-                {/*	Accordion */}
+                ; ; ;{/*	Accordion */}
                 <div className="ui container">
                     <div className="ui styled fluid accordion" style={{ backgroundColor: '#21272D', color: '#FFFFFF' }}>
                         <div className="active title">
@@ -97,50 +113,141 @@ const App = () => {
                         </div>
                     </div>
                 </div>
-
-                {/*	Analytics */}
+                ; ; ;{/*	Analytics */}
                 <div className="ui two column stackable grid container" style={{ marginTop: '20px' }}>
                     <div className="column">
                         <div
                             className="ui raised segment"
-                            style={{ backgroundColor: '#21272D', color: '#FFFFFF', height: '10rem' }}
+                            style={{ backgroundColor: '#21272D', color: '#FFFFFF', height: 'fit-content' }}
                         >
-                            TVL Analytics
+                            <div className="ui grid">
+                                <div className="six wide column">
+                                    <div className="ui column">
+                                        <div
+                                            className="ui raised segment"
+                                            style={{ background: 'transparent', border: '1px solid #39434E' }}
+                                        >
+                                            <a href="test" className="ui blue ribbon label">
+                                                Total Value Locked (TVL)
+                                            </a>
+                                            <p style={{ margin: '1rem 0' }}>$173,647,688</p>
+                                            <a href="test" className="ui blue ribbon label">
+                                                Change (24h)
+                                            </a>{' '}
+                                            <p style={{ margin: '1rem 0' }}>7.00%</p>
+                                            <a href="test" className="ui blue ribbon label">
+                                                UniSwap Dominance
+                                            </a>
+                                            <p style={{ margin: '1rem 0' }}>30.30%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="ten wide column">Right</div>
+                            </div>
                         </div>
                     </div>
                     <div className="column">
                         <div
                             className="ui raised segment"
-                            style={{ backgroundColor: '#21272D', color: '#FFFFFF', height: '10rem' }}
+                            style={{ backgroundColor: '#21272D', color: '#FFFFFF', height: 'fit-content' }}
                         >
-                            Token Balance
+                            <div className="ui grid">
+                                <div className="six wide column">
+                                    <div className="ui column">
+                                        <div
+                                            className="ui raised segment"
+                                            style={{ background: 'transparent', border: '1px solid #39434E' }}
+                                        >
+                                            <a href="test" className="ui blue ribbon label">
+                                                KROM Price
+                                            </a>
+                                            <p style={{ margin: '1rem 0' }}>$0.0034</p>
+                                            <a href="test" className="ui blue ribbon label">
+                                                Market Size
+                                            </a>{' '}
+                                            <p style={{ margin: '1rem 0' }}>10,435,444</p>
+                                            <a href="test" className="ui blue ribbon label">
+                                                Total Supply
+                                            </a>
+                                            <p style={{ margin: '1rem 0' }}>100,000,000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="ten wide column">Right</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                {/*	Horizontal Divider */}
-                <div className="ui divider container" style={{ margin: '4rem 0' }} />
-
-                {/*Pool Table Header */}
+                ; ; ;{/*	Horizontal Divider */}
+                <div className="ui divider container" style={{ margin: '4rem 0' }} />; ; ;{/*Pool Table Header */}
                 <h3 className="ui center aligned header" style={{ color: '#12B2FF' }}>
                     Supported Pools
                 </h3>
-
-                {/*	Token Table */}
+                ; ; ;{/*	Token Table */}
                 <div className="ui container">
-                    <div className="ui raised segment" style={{ backgroundColor: '#21272D', color: '#FFFFFF' }}>
-                        Pool 1
+                    <div
+                        className="ui raised segment flex flex-grow justify-between"
+                        style={{
+                            backgroundColor: 'transparent',
+                            color: '#FFFFFF',
+                            padding: '1rem 3rem',
+                            border: '0',
+                            fontWeight: '900'
+                        }}
+                    >
+                        <span className="inline-block">ASSET</span>
+                        <span className="inline-block">POOL</span>
+                        <span className="inline-block">APY</span>
+                        <span className="inline-block">BALANCE</span>
+                        <span className="inline-block">FARMING</span>
+                        <span className="inline-block">ACTION</span>
                     </div>
-                    <div className="ui raised segment" style={{ backgroundColor: '#21272D', color: '#FFFFFF' }}>
-                        Pool 2
+                    <div
+                        className="ui raised segment flex flex-grow justify-between"
+                        style={{ backgroundColor: '#21272D', color: '#FFFFFF', padding: '1rem 3rem' }}
+                    >
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
                     </div>
-                    <div className="ui raised segment" style={{ backgroundColor: '#21272D', color: '#FFFFFF' }}>
-                        Pool 3
+                    <div
+                        className="ui raised segment flex flex-grow justify-between"
+                        style={{ backgroundColor: '#21272D', color: '#FFFFFF', padding: '1rem 3rem' }}
+                    >
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
                     </div>
-                    <div className="ui raised segment" style={{ backgroundColor: '#21272D', color: '#FFFFFF' }}>
-                        Pool 4
+                    <div
+                        className="ui raised segment flex flex-grow justify-between"
+                        style={{ backgroundColor: '#21272D', color: '#FFFFFF', padding: '1rem 3rem' }}
+                    >
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                    </div>
+                    <div
+                        className="ui raised segment flex flex-grow justify-between"
+                        style={{ backgroundColor: '#21272D', color: '#FFFFFF', padding: '1rem 3rem' }}
+                    >
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
+                        <span className="inline-block">Token1</span>
                     </div>
                 </div>
+                ; ; ;
             </div>
         </>
     );
