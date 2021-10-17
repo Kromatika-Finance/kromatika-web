@@ -120,7 +120,7 @@ const Navbar = () => {
                     </ul>
                     <StyleRoot>
                         <a
-                            href="/app"
+                            href="http://localhost:3001/app"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-gray-900 text-xl font-bold uppercase px-6 py-4 rounded-sm shadow

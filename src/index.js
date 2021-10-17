@@ -12,7 +12,6 @@ ReactDOM.render(
         <Switch>
             <Route path="/landing" component={Landing} />
             <Route path="/docs" component={Navbar} />
-            <Route path="/app" target="_blank" />
             <Redirect from="/" to="/landing" />
         </Switch>
     </BrowserRouter>,
