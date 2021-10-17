@@ -179,6 +179,21 @@ const FooterComponent = () => {
                             </HashLink>
                         </div>
                     </div>
+                    <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 sm:mt-0">
+                        <h5 className="text-xl font-bold mb-6 sm:text-center xl:text-left">Attributions</h5>
+                        <div className="flex sm:justify-center xl:justify-start">
+                            <div>
+                                Icons made by{' '}
+                                <a href="https://www.flaticon.com/premium-icon/deposit_3671688" title="itim2101">
+                                    itim2101
+                                </a>{' '}
+                                from{' '}
+                                <a href="https://www.flaticon.com/" title="Flaticon">
+                                    www.flaticon.com
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
