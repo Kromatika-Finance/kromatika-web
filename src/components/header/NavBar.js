@@ -91,36 +91,15 @@ const Navbar = () => {
                             <HashLink
                                 className="lg:text-white text-yellow px-3 py-4 lg:py-2 flex items-center text-xl
                                 uppercase font-bold link-underline"
-                                to="#features"
-                            >
-                                Features
-                            </HashLink>
-                        </li>
-                        <li className="flex items-center">
-                            <HashLink
-                                className="lg:text-white text-yellow px-3 py-4 lg:py-2 flex items-center text-xl
-                                uppercase font-bold link-underline"
                                 to="#benefits"
                             >
-                                Benefits
-                            </HashLink>
-                        </li>
-                        <li className="flex items-center">
-                            <HashLink
-                                className="lg:text-white text-yellow px-3 py-4 lg:py-2 flex items-center text-xl
-                                uppercase font-bold link-underline"
-                                to="/docs"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Docs
-                                <i className="lg:text-white text-yellow far fa-file-alt text-lg leading-lg ml-2" />
+                                KROM Token
                             </HashLink>
                         </li>
                     </ul>
                     <StyleRoot>
                         <a
-                            href="http://localhost:3001/app"
+                            href="https://app.kromatika.finance"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-gray-900 text-xl font-bold uppercase px-6 py-4 rounded-sm shadow

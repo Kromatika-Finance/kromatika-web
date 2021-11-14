@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/gotham');
+@import url('https://fonts.cdnfonts.com/css/gotham');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 @tailwind base;
@@ -10,7 +10,7 @@
     --bg-color-primary: #111316;
     --bg-color-secondary: #21272d;
     --bg-color-ternary: #39434e;
-    --bg-color-yellow: #ffbb00;
+    --bg-color-yellow: #554d38;
 
     --text-color-primary: #ffffff;
     --text-color-secondary: #12b2ff;

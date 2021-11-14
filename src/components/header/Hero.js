@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { StyleRoot } from 'radium';
 import React from 'react';
 
-const Hero = ({ onButtonClick, bounceInAnimation, executeScroll }) => {
+const Hero = ({ bounceInAnimation, executeScroll }) => {
     return (
         <div id="hero">
             <div
@@ -17,20 +17,17 @@ const Hero = ({ onButtonClick, bounceInAnimation, executeScroll }) => {
                         fontWeight: '500'
                     }}
                 >
-                    Kromatika Robo-advisor
+                    Kromatika Limit Orders
                 </h1>
                 <p
                     className="text-4xl mb-10 w-3/5 text-regular subpixel-antialiased leading-tight
 							                  leading-snug"
                 >
-                    Kromatika is a digital platform that provides automated, algorithm-driven financial planning
-                    services with little to no human supervision.
+                    Kromatika is a decentralized limit order manager, powered by Uniswap and Chainlink.
                     <br />
-                    Algorithm-driven strategies that automatically generate yield based on opportunities present in the
-                    market
                 </p>
                 <div>
-                    <button
+                    {/* <button
                         id="btn-read-more"
                         className="bg-gray-900 text-xl font-bold btn uppercase px-6 py-4 rounded-sm shadow
 								                    hover:shadow-xl bg-yellow outline-none focus:outline-none lg:mr-1 lg:mb-0 mb-3"
@@ -41,7 +38,7 @@ const Hero = ({ onButtonClick, bounceInAnimation, executeScroll }) => {
                         onClick={onButtonClick}
                     >
                         Read More
-                    </button>
+                    </button> */}
                     <button
                         id="btn-see-demo"
                         className="text-xl font-bold uppercase px-6 py-4 rounded-sm shadow
@@ -50,9 +47,11 @@ const Hero = ({ onButtonClick, bounceInAnimation, executeScroll }) => {
                         style={{
                             transition: 'all .15s ease'
                         }}
-                        onClick={onButtonClick}
+                        onClick={() => {
+                            window.open('https://app.kromatika.finance', 'blank');
+                        }}
                     >
-                        See Demo
+                        Enter App
                     </button>
                 </div>
                 <StyleRoot>

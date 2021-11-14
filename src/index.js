@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 
 import Navbar from './components/header/NavBar';
+import registerServiceWorker from './registerServiceWorker';
 import Landing from './views/Landing';
 
 ReactDOM.render(
@@ -17,3 +18,4 @@ ReactDOM.render(
     </BrowserRouter>,
     document.getElementById('root')
 );
+registerServiceWorker();

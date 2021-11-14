@@ -17,26 +17,31 @@ const Benefits = () => {
                         fontWeight: '500'
                     }}
                 >
-                    Benefits
+                    KROM Token
                 </h2>
 
                 <div className="container mx-auto flex flex-wrap justify-around">
                     <p className="w-2/5 text-2xl">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autumn distinctio dolore ducimus et ex
-                        harum hic, iure labore laudanum magni natus nihil, magni natus nihil, magni natus nihil, nobs
-                        officiis porro provident qui quia quos qui quia quos reiciendis repellat repellendus rerum sint
-                        tempora vero voluptatum.
+                        KROM token is a non-mintable ERC20 token, secured by OpenZepellin and audited by MythX, having
+                        100 millions of total supply EVER.
                         <br />
                         <br />
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipose corporis culpa cupiditate
-                        deserunt dolore ducimus ea eaque enum incidunt iusto, magnam modi necessitatibus odio odit
-                        officia omnibus quas quo quod quas quo quod quas quo quod quas quo quod quas quo quod
-                        reprehended saepe sit asperiores aut corporis delectus dignissimos dolor eius expedita fugiat,
-                        labore libero nemo quo repellat ut voluptate. voluptate. Inventore, laudantium?
                         <br />
                         <br />
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aperiam asperiores dolore,
-                        dolorem eos id inventore ipsum iure mollitia nemo pariatur porro!
+                        60 millions KROM tokens will be available for trading on Uniswap V3 MAINNET. For better security
+                        and prevention from rug pulls hacks, the proof of liquidity (position) will be burned, leaving
+                        the majority of the token supply to the community FOREVER.
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        20 millions KROM tokens will be available for trading on Layer2 Uniswap (Arbitrum and Optimism).
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        20 millions KROM tokens will be held in a multisignature Gnosis Safe wallet and be used for
+                        project funding.
                     </p>
                     <img
                         src={strategyIllustration}

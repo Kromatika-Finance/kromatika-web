@@ -4,7 +4,6 @@ import { bounceIn } from 'react-animations';
 
 import FooterComponent from '../components/footer/FooterComponent';
 import Benefits from './sections/Benefits';
-import Features from './sections/Features';
 import Header from './sections/Header';
 import HowItWorks from './sections/HowItWorks';
 
@@ -13,10 +12,6 @@ const bounceInAnimation = {
         animation: '1s infinite',
         animationName: Radium.keyframes(bounceIn, 'bounceIn')
     }
-};
-
-const onButtonClick = () => {
-    alert('TODO: Fix me');
 };
 
 const useScroll = () => {
@@ -35,10 +30,10 @@ const Landing = () => {
 
     return (
         <>
-            <Header onButtonClick={onButtonClick} bounceInAnimation={bounceInAnimation} executeScroll={executeScroll} />
+            <Header bounceInAnimation={bounceInAnimation} executeScroll={executeScroll} />
             <main>
                 <HowItWorks elRef={elRef} />
-                <Features />
+                {/* <Features /> */}
                 <Benefits />
             </main>
             <FooterComponent />

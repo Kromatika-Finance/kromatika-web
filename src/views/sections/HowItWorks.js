@@ -1,6 +1,10 @@
 import React from 'react';
 
+import balance from '../../assets/img/balance.png';
+import deposit from '../../assets/img/deposit.png';
 import processSvg from '../../assets/img/process.svg';
+import redeem from '../../assets/img/redeem.png';
+import strategy from '../../assets/img/strategy.png';
 
 const HowItWorks = ({ elRef }) => {
     return (
@@ -21,25 +25,82 @@ const HowItWorks = ({ elRef }) => {
                 </h2>
 
                 <div className="container mx-auto flex flex-wrap justify-around">
-                    <img src={processSvg} alt="describes the yield farming process" />
+                    <img src={processSvg} alt="describes the limit order manager process" />
 
-                    <p className="w-2/5 text-2xl">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autumn distinctio dolore ducimus et ex
-                        harum hic, iure labore laudanum magni natus nihil, magni natus nihil, magni natus nihil, nobs
-                        officiis porro provident qui quia quos qui quia quos reiciendis repellat repellendus rerum sint
-                        tempora vero voluptatum.
-                        <br />
-                        <br />
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipose corporis culpa cupiditate
-                        deserunt dolore ducimus ea eaque enum incidunt iusto, magnam modi necessitatibus odio odit
-                        officia omnibus quas quo quod quas quo quod quas quo quod quas quo quod quas quo quod
-                        reprehended saepe sit asperiores aut corporis delectus dignissimos dolor eius expedita fugiat,
-                        labore libero nemo quo repellat ut voluptate. voluptate. Inventore, laudantium?
-                        <br />
-                        <br />
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aperiam asperiores dolore,
-                        dolorem eos id inventore ipsum iure mollitia nemo pariatur porro!
-                    </p>
+                    <div className="flex flex-wrap flex-grow justify-center mx-auto pt-20 w-2/5 text-2xl">
+                        <div
+                            className="max-w-md pt-4 pb-8 px-8 feature-card border border-blue-400 shadow-lg
+                                rounded-lg mx-20 my-20"
+                        >
+                            <div className="flex justify-center md:justify-end -mt-16">
+                                <img
+                                    className="w-20 h-20 object-cover rounded-full border-2 border-blue-400
+                                        bg-gray-800 p-2"
+                                    src={strategy}
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <h2 className="text-blue-400 text-3xl font-semibold">Place a limit order</h2>
+                                <p className="mt-2 text-white">
+                                    Select the trading pairs (tokens) and a target price for your limit order.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            className="max-w-md pt-4 pb-8 px-8 feature-card border border-blue-400 shadow-lg
+                                rounded-lg mx-20 my-20"
+                        >
+                            <div className="flex justify-center md:justify-end -mt-16">
+                                <img
+                                    className="w-20 h-20 object-cover rounded-full border-2 border-blue-400
+                                        bg-gray-800 p-2"
+                                    src={deposit}
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <h2 className="text-blue-400 text-3xl font-semibold">Fund your account</h2>
+                                <p className="mt-2 text-white">Fund your KROMatika account with KROM tokens.</p>
+                            </div>
+                        </div>
+                        <div
+                            className="max-w-md pt-4 pb-8 px-8 feature-card border border-blue-400 shadow-lg
+                                rounded-lg mx-20 my-20"
+                        >
+                            <div className="flex justify-center md:justify-end -mt-16">
+                                <img
+                                    className="w-20 h-20 object-cover rounded-full border-2 border-blue-400
+                                        bg-gray-800 p-2"
+                                    src={balance}
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <h2 className="text-blue-400 text-3xl font-semibold">Process limit order</h2>
+                                <p className="mt-2 text-white">
+                                    Wait for your limit order to be processed automatikally.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            className="max-w-md pt-4 pb-8 px-8 feature-card border border-blue-400 shadow-lg
+                                rounded-lg mx-20 my-20"
+                        >
+                            <div className="flex justify-center md:justify-end -mt-16">
+                                <img
+                                    className="w-20 h-20 object-cover rounded-full border-2 border-blue-400
+                                        bg-gray-800 p-2"
+                                    src={redeem}
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <h2 className="text-blue-400 text-3xl font-semibold">Collect</h2>
+                                <p className="mt-2 text-white">Collect the amounts from the limit order.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
