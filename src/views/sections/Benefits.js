@@ -34,31 +34,7 @@ const Benefits = () => {
                         <br />
                         <br />
                         <br />
-                        60 millions KROM tokens are already available for trading on Uniswap V3 MAINNET. Get your KROM
-                        tokens{' '}
-                        <a
-                            target="_blank"
-                            href={
-                                'https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x3af33bEF05C2dCb3C7288b77fe1C8d2AeBA4d789'
-                            }
-                            rel="noreferrer"
-                        >
-                            here.
-                        </a>{' '}
-                        <br />
-                        <br />
-                        <br />
-                        For better security and prevention from rug pulls, the proof of liquidity (position) has been
-                        burned. Check the burn transaction{' '}
-                        <a
-                            target="_blank"
-                            href={
-                                'https://etherscan.io/tx/0x26c782eb49c42979c259dda936f28b77ae8dbeef16da3ec341d06cb437034ac4'
-                            }
-                            rel="noreferrer"
-                        >
-                            here.
-                        </a>{' '}
+                        60 millions KROM tokens are already available for trading on Uniswap V3 MAINNET.
                         <br />
                         <br />
                         <br />
@@ -69,6 +45,20 @@ const Benefits = () => {
                         <br />
                         The rest of the tokens: 20 millions KROM tokens will be held in a multisignature Gnosis Safe
                         wallet and used solely for project funding.
+                        <br />
+                        <br />
+                        <br />
+                        Early KROM token holders would have HUGE savings on service fees, buying the token cheap and
+                        paying the service fee when the token price has increased. Get your KROM tokens{' '}
+                        <a
+                            target="_blank"
+                            href={
+                                'https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x3af33bEF05C2dCb3C7288b77fe1C8d2AeBA4d789'
+                            }
+                            rel="noreferrer"
+                        >
+                            here.
+                        </a>{' '}
                     </p>
                     <img
                         src={strategyIllustration}
