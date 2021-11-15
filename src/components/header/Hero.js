@@ -55,7 +55,7 @@ const Hero = ({ bounceInAnimation, executeScroll }) => {
                             );
                         }}
                     >
-                        GET KROM TOKEN
+                        BUY KROM TOKENS
                     </button>
                 </div>
                 <StyleRoot>
