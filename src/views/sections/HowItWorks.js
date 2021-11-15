@@ -41,9 +41,9 @@ const HowItWorks = ({ elRef }) => {
                                 />
                             </div>
                             <div>
-                                <h2 className="text-blue-400 text-3xl font-semibold">Place a limit order</h2>
+                                <h2 className="text-blue-400 text-3xl font-semibold">Trade</h2>
                                 <p className="mt-2 text-white">
-                                    Select the trading pairs (tokens) and a target price for your limit order.
+                                    Select the trading pairs (tokens) and a target price for your trade.
                                 </p>
                             </div>
                         </div>
@@ -77,10 +77,8 @@ const HowItWorks = ({ elRef }) => {
                                 />
                             </div>
                             <div>
-                                <h2 className="text-blue-400 text-3xl font-semibold">Process limit order</h2>
-                                <p className="mt-2 text-white">
-                                    Wait for your limit order to be processed automatikally.
-                                </p>
+                                <h2 className="text-blue-400 text-3xl font-semibold">Process trade</h2>
+                                <p className="mt-2 text-white">Wait for your trade to be processed automatikally.</p>
                             </div>
                         </div>
                         <div
@@ -97,7 +95,7 @@ const HowItWorks = ({ elRef }) => {
                             </div>
                             <div>
                                 <h2 className="text-blue-400 text-3xl font-semibold">Collect</h2>
-                                <p className="mt-2 text-white">Collect the amounts from the limit order.</p>
+                                <p className="mt-2 text-white">Collect the amounts from the trade.</p>
                             </div>
                         </div>
                     </div>
