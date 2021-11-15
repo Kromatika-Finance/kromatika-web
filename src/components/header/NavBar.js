@@ -108,7 +108,7 @@ const Navbar = () => {
                             type="button"
                             style={styles.pulse}
                         >
-                            <i className="fas fa-wallet mr-1" /> Enter App
+                            <i className="fas fa-wallet mr-1" /> Enter App (BETA)
                         </a>
                     </StyleRoot>
                 </div>
