@@ -23,8 +23,17 @@ const Hero = ({ bounceInAnimation, executeScroll }) => {
                     className="text-4xl mb-10 w-3/5 text-regular subpixel-antialiased leading-tight
 							                  leading-snug"
                 >
-                    Kromatika is a decentralized limit order manager, powered by Uniswap and Chainlink, fuelled by the
-                    KROM token.
+                    <br />
+                    Next generation DEX crypto trading
+                    <br />
+                    <br />
+                    NO swap Fees...
+                    <br />
+                    <br />
+                    NO Front-Running Bots...
+                    <br />
+                    <br />
+                    NO Price Slippage...
                     <br />
                 </p>
                 <div>
