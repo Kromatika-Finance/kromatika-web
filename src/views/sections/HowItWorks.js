@@ -25,7 +25,7 @@ const HowItWorks = ({ elRef }) => {
                 </h2>
 
                 <div className="container mx-auto flex flex-wrap justify-around">
-                    <img src={processSvg} alt="describes the limit order manager process" />
+                    <img src={processSvg} alt="DEX Trade" />
 
                     <div className="flex flex-wrap flex-grow justify-center mx-auto pt-20 w-2/5 text-2xl">
                         <div

@@ -17,14 +17,14 @@ const Hero = ({ bounceInAnimation, executeScroll }) => {
                         fontWeight: '500'
                     }}
                 >
-                    Kromatika Limit Orders
+                    Kromatika DEX Trade
                 </h1>
                 <p
                     className="text-4xl mb-10 w-3/5 text-regular subpixel-antialiased leading-tight
 							                  leading-snug"
                 >
                     <br />
-                    Next generation DEX crypto trading
+                    Next generation DEX crypto trading:
                     <br />
                     <br />
                     NO swap Fees...
