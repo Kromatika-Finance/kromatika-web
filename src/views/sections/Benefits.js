@@ -24,7 +24,7 @@ const Benefits = () => {
                     <p className="w-2/5 text-2xl">
                         <a
                             target="_blank"
-                            href={'https://kovan.etherscan.io/token/0x50E0f3E7a3BDfe03d1074b698Ff28202aD18b795'}
+                            href={'https://etherscan.io/token/0x3af33bEF05C2dCb3C7288b77fe1C8d2AeBA4d789'}
                             rel="noreferrer"
                         >
                             KROM
