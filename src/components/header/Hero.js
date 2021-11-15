@@ -23,7 +23,8 @@ const Hero = ({ bounceInAnimation, executeScroll }) => {
                     className="text-4xl mb-10 w-3/5 text-regular subpixel-antialiased leading-tight
 							                  leading-snug"
                 >
-                    Kromatika is a decentralized limit order manager, powered by Uniswap and Chainlink.
+                    Kromatika is a decentralized limit order manager, powered by Uniswap and Chainlink, fuelled by the
+                    KROM token.
                     <br />
                 </p>
                 <div>
@@ -48,10 +49,13 @@ const Hero = ({ bounceInAnimation, executeScroll }) => {
                             transition: 'all .15s ease'
                         }}
                         onClick={() => {
-                            window.open('https://app.kromatika.finance', 'blank');
+                            window.open(
+                                'https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x3af33bEF05C2dCb3C7288b77fe1C8d2AeBA4d789',
+                                'blank'
+                            );
                         }}
                     >
-                        Enter App
+                        GET KROM TOKEN
                     </button>
                 </div>
                 <StyleRoot>
