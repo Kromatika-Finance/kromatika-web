@@ -55,7 +55,7 @@ const Hero = ({ bounceInAnimation, executeScroll }) => {
                             );
                         }}
                     >
-                        BUY KROM TOKENS
+                        BUY KROM TOKENS ON UNISWAP
                     </button>
                 </div>
                 <StyleRoot>
