@@ -34,31 +34,21 @@ const Benefits = () => {
                         <br />
                         <br />
                         <br />
-                        60 millions KROM tokens are already available for trading on Uniswap V3 MAINNET.
+                        60 millions KROM tokens are already available for trading on Ethereum.
                         <br />
                         <br />
                         <br />
-                        20 millions KROM tokens will be available for trading on Layer2 Uniswap (Arbitrum and Optimism)
-                        in the first month of the launch.
+                        20 millions KROM tokens are already available for trading on Layer2 (Arbitrum and Optimism).
                         <br />
                         <br />
                         <br />
-                        The rest of the tokens: 20 millions KROM tokens will be held in a multisignature Gnosis Safe
-                        wallet and used solely for project funding.
+                        20 millions KROM tokens are held in a multisignature Gnosis Safe wallet and used solely for
+                        project funding.
                         <br />
                         <br />
                         <br />
                         Early KROM token holders would have HUGE savings on service fees, buying the token cheap and
-                        paying the service fee when the token price has increased. Get your KROM tokens{' '}
-                        <a
-                            target="_blank"
-                            href={
-                                'https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x3af33bEF05C2dCb3C7288b77fe1C8d2AeBA4d789'
-                            }
-                            rel="noreferrer"
-                        >
-                            here.
-                        </a>{' '}
+                        paying the service fee when the token price has increased.
                     </p>
                     <img
                         src={strategyIllustration}
