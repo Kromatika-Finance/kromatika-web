@@ -27,7 +27,7 @@ const Hero = ({ bounceInAnimation, executeScroll }) => {
                     Next generation DEX crypto trading:
                     <br />
                     <br />
-                    NO swap Fees...
+                    NO Swap Fees...
                     <br />
                     <br />
                     NO Front-Running Bots...
@@ -37,18 +37,6 @@ const Hero = ({ bounceInAnimation, executeScroll }) => {
                     <br />
                 </p>
                 <div>
-                    {/* <button
-                        id="btn-read-more"
-                        className="bg-gray-900 text-xl font-bold btn uppercase px-6 py-4 rounded-sm shadow
-								                    hover:shadow-xl bg-yellow outline-none focus:outline-none lg:mr-1 lg:mb-0 mb-3"
-                        type="button"
-                        style={{
-                            transition: 'all .15s ease'
-                        }}
-                        onClick={onButtonClick}
-                    >
-                        Read More
-                    </button> */}
                     <button
                         id="btn-see-demo"
                         className="text-xl font-bold uppercase px-6 py-4 rounded-sm shadow
@@ -59,12 +47,26 @@ const Hero = ({ bounceInAnimation, executeScroll }) => {
                         }}
                         onClick={() => {
                             window.open(
-                                'https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x3af33bEF05C2dCb3C7288b77fe1C8d2AeBA4d789',
+                                'https://kromatika-finance.medium.com/kromatika-launching-the-first-decentralized-limit-order-manager-powered-by-uniswap-and-961e0da4d15a',
                                 'blank'
                             );
                         }}
                     >
-                        BUY KROM TOKENS ON UNISWAP
+                        READ MORE
+                    </button>
+                    <button
+                        id="btn-read-more"
+                        className="bg-gray-900 text-xl font-bold btn uppercase px-6 py-4 rounded-sm shadow
+								                    hover:shadow-xl bg-yellow outline-none focus:outline-none lg:mr-1 lg:mb-0 mb-3"
+                        type="button"
+                        style={{
+                            transition: 'all .15s ease'
+                        }}
+                        onClick={() => {
+                            window.open('https://link.kromatika.finance/buy-krom-eth', 'blank');
+                        }}
+                    >
+                        BUY NOW
                     </button>
                 </div>
                 <StyleRoot>
