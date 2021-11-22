@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 
 const FooterComponent = () => {
     return (
@@ -11,25 +10,32 @@ const FooterComponent = () => {
                 sm:-mx-4 md:py-4"
                 >
                     <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6">
-                        <h5 className="text-xl font-bold mb-6">Kromatika</h5>
+                        <h5 className="text-xl font-bold mb-6">Info</h5>
                         <ul className="list-none footer-links">
                             <li className="mb-2">
                                 <Link
-                                    to="#howItWorks"
+                                    to={{
+                                        pathname:
+                                            'https://telegra.ph/How-to-buy-KROM-using-MetaMaskand-import-in-on-your-Wallet-11-19'
+                                    }}
+                                    target="_blank"
                                     className="border-b border-solid border-transparent hover:border-purple-800
                                     hover:text-purple-800"
                                 >
-                                    How it works
+                                    HOW TO BUY
                                 </Link>
                             </li>
                             <li className="mb-2">
-                                <HashLink
-                                    to="#benefits"
+                                <Link
+                                    to={{
+                                        pathname: ''
+                                    }}
+                                    target="_blank"
                                     className="border-b border-solid border-transparent hover:border-purple-800
                                     hover:text-purple-800"
                                 >
-                                    KROM Token
-                                </HashLink>
+                                    ROADMAP
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -39,13 +45,13 @@ const FooterComponent = () => {
                             <li className="mb-2">
                                 <Link
                                     to={{
-                                        pathname: 'https://github.com/Kromatika-Finance'
+                                        pathname: 'https://link.medium.com/pzGhybBqhlb'
                                     }}
                                     target="_blank"
                                     className="border-b border-solid border-transparent hover:border-purple-800
                                     hover:text-purple-800"
                                 >
-                                    Github
+                                    Whitepaper
                                 </Link>
                             </li>
                             <li className="mb-2">
@@ -119,16 +125,16 @@ const FooterComponent = () => {
                         </div>
                     </div>
                     <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 sm:mt-0">
-                        <h5 className="text-xl font-bold mb-6 sm:text-center xl:text-left">Attributions</h5>
+                        <h5 className="text-xl font-bold mb-6 sm:text-center xl:text-left">Kromatika.Finance</h5>
                         <div className="flex sm:justify-center xl:justify-start">
                             <div>
-                                Icons made by{' '}
-                                <a href="https://www.flaticon.com/premium-icon/deposit_3671688" title="itim2101">
-                                    itim2101
+                                Copyright © 2021{' '}
+                                <a href="kromatika.finance" title="kromatika">
+                                    Kromatika.Finance
                                 </a>{' '}
-                                from{' '}
-                                <a href="https://www.flaticon.com/" title="Flaticon">
-                                    www.flaticon.com
+                                All Rights Reserved{' '}
+                                <a href="https://app.kromatika.finance/#/swap" title="app">
+                                    | KROMATIKA DEX TRADE
                                 </a>
                             </div>
                         </div>

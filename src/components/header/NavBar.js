@@ -1,6 +1,7 @@
 import Radium, { StyleRoot } from 'radium';
 import React, { useEffect, useState } from 'react';
 import { pulse } from 'react-animations';
+import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 import logo from '../../assets/img/logo.svg';
@@ -84,7 +85,7 @@ const Navbar = () => {
                                 uppercase font-bold link-underline"
                                 to="#howItWorks"
                             >
-                                How it works
+                                HOW IT WORKS
                             </HashLink>
                         </li>
                         <li className="flex items-center">
@@ -93,8 +94,33 @@ const Navbar = () => {
                                 uppercase font-bold link-underline"
                                 to="#benefits"
                             >
-                                KROM Token
+                                KROM TOKEN
                             </HashLink>
+                        </li>
+                        <li className="flex items-center">
+                            <Link
+                                className="lg:text-white text-yellow px-3 py-4 lg:py-2 flex items-center text-xl
+                                uppercase font-bold link-underline"
+                                to={{
+                                    pathname:
+                                        'https://telegra.ph/How-to-buy-KROM-using-MetaMaskand-import-in-on-your-Wallet-11-19'
+                                }}
+                                target="_blank"
+                            >
+                                HOW TO BUY
+                            </Link>
+                        </li>
+                        <li className="flex items-center">
+                            <Link
+                                className="lg:text-white text-yellow px-3 py-4 lg:py-2 flex items-center text-xl
+                                uppercase font-bold link-underline"
+                                to={{
+                                    pathname: 'https://t.me/KromatikaNews'
+                                }}
+                                target="_blank"
+                            >
+                                ANNOUNCEMENTS
+                            </Link>
                         </li>
                     </ul>
                     <StyleRoot>

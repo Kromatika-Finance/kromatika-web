@@ -7,15 +7,19 @@
 
 /* COLORS */
 :root {
-    --bg-color-primary: #111316;
-    --bg-color-secondary: #21272d;
-    --bg-color-ternary: #39434e;
-    --bg-color-yellow: #554d38;
+    --bg-color-primary: #040C18;
+    --bg-color-secondary: #040C18;
+    --bg-color-ternary: #040C18;
+    --bg-color-yellow: #70706f;
+    --bg-color-blue:#0059ff;
 
     --text-color-primary: #ffffff;
     --text-color-secondary: #12b2ff;
-    --text-color-ternary: #ffbb00;
+    --text-color-ternary: #ffffff;
     --text-color-dark: #111316;
+
+    --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
 }
 
 * {
@@ -69,14 +73,11 @@ a.text-yellow:hover > i {
 /* SECTIONS */
 #hero {
     background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
-    url(assets/img/hero-absolute-vision.webp) no-repeat center center fixed;
+    url(assets/img/back.png) no-repeat center center fixed;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.4))),
-    url(assets/img/hero-absolute-vision.webp) no-repeat center center fixed;
+    url(assets/img/back.png) no-repeat center center fixed;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
-    url(assets/img/hero-absolute-vision.webp) no-repeat center center fixed;
-    /*background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)),*/
-    /*conic-gradient(from 180deg at 50% 50%, rgba(18, 178, 255, 0.3) 0deg, rgba(17, 19, 22, 0) 56.25deg, rgba(18, 178, 255, 0.3) 360deg),*/
-    /*url(./assets/img/hero-absolute-vision.webp) no-repeat center center fixed;*/
+    url(assets/img/back.png) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     mix-blend-mode: multiply;
@@ -108,6 +109,19 @@ a.text-yellow:hover > i {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+}
+
+#Brands {
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url(assets/img/back.png) no-repeat center center fixed;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.4))),
+    url(assets/img/back.png) no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url(assets/img/back.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    mix-blend-mode: multiply;
+    position: relative;
 }
 
 /* BUTTONS */
