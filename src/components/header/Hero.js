@@ -33,13 +33,13 @@ const Hero = ({ bounceInAnimation, executeScroll }) => {
                     Next generation DEX crypto trading:
                     <br />
                     <br />
-                    UI for interacting with KROMatika smart contracts
+                    NO Swap Fees
                     <br />
                     <br />
-                    Off-chain decentralized processing services
+                    NO Front-Running Bots
                     <br />
                     <br />
-                    KROM token — utility ERC20 token used for paying the service fee
+                    NO Price Slippage
                     <br />
                 </p>
                 <div>
