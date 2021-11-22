@@ -4,8 +4,11 @@ import { bounceIn } from 'react-animations';
 
 import FooterComponent from '../components/footer/FooterComponent';
 import Benefits from './sections/Benefits';
+import Brands from './sections/Brands';
 import Header from './sections/Header';
 import HowItWorks from './sections/HowItWorks';
+import Learn from './sections/Learn';
+import Roadmap from './sections/Roadmap';
 
 const bounceInAnimation = {
     bounceIn: {
@@ -33,8 +36,10 @@ const Landing = () => {
             <Header bounceInAnimation={bounceInAnimation} executeScroll={executeScroll} />
             <main>
                 <HowItWorks elRef={elRef} />
-                {/* <Features /> */}
                 <Benefits />
+                <Learn />
+                <Roadmap />
+                <Brands />
             </main>
             <FooterComponent />
         </>

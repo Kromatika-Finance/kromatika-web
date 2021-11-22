@@ -3,6 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { StyleRoot } from 'radium';
 import React from 'react';
 
+import cmc from '../../assets/img/cmc_icon@2x.png';
+import etherscan from '../../assets/img/etherscan@2x.png';
+import instagram from '../../assets/img/instagram-social-icon@2x.png';
+import telegram from '../../assets/img/telegram-social-icon@2x.png';
+import twiter from '../../assets/img/twitter-social-icon@2x.png';
+
 const Hero = ({ bounceInAnimation, executeScroll }) => {
     return (
         <div id="hero">
@@ -17,7 +23,7 @@ const Hero = ({ bounceInAnimation, executeScroll }) => {
                         fontWeight: '500'
                     }}
                 >
-                    Kromatika DEX Trade
+                    KROMATIKA DEX TRADE
                 </h1>
                 <p
                     className="text-4xl mb-10 w-3/5 text-regular subpixel-antialiased leading-tight
@@ -27,32 +33,32 @@ const Hero = ({ bounceInAnimation, executeScroll }) => {
                     Next generation DEX crypto trading:
                     <br />
                     <br />
-                    NO Swap Fees...
+                    NO Swap Fees
                     <br />
                     <br />
-                    NO Front-Running Bots...
+                    NO Front-Running Bots
                     <br />
                     <br />
-                    NO Price Slippage...
+                    NO Price Slippage
                     <br />
                 </p>
                 <div>
                     <button
-                        id="btn-see-demo"
-                        className="text-xl font-bold uppercase px-6 py-4 rounded-sm shadow
-									                  hover:shadow-xm outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                        id="btn-read-more"
+                        className="bg-gray-900 text-xl font-bold btn uppercase px-6 py-4 rounded-sm shadow
+                                                hover:shadow-xl bg-yellow outline-none focus:outline-none lg:mr-1 lg:mb-0 mb-3"
                         type="button"
                         style={{
                             transition: 'all .15s ease'
                         }}
                         onClick={() => {
                             window.open(
-                                'https://kromatika-finance.medium.com/kromatika-launching-the-first-decentralized-limit-order-manager-powered-by-uniswap-and-961e0da4d15a',
+                                'https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x3af33bEF05C2dCb3C7288b77fe1C8d2AeBA4d789',
                                 'blank'
                             );
                         }}
                     >
-                        READ MORE
+                        BUY NOW ON UNISWAP
                     </button>
                     <button
                         id="btn-read-more"
@@ -63,11 +69,60 @@ const Hero = ({ bounceInAnimation, executeScroll }) => {
                             transition: 'all .15s ease'
                         }}
                         onClick={() => {
-                            window.open('https://link.kromatika.finance/buy-krom-eth', 'blank');
+                            window.open(
+                                'https://telegra.ph/How-to-buy-KROM-using-MetaMaskand-import-in-on-your-Wallet-11-19',
+                                'blank'
+                            );
                         }}
                     >
-                        BUY NOW
+                        HOW TO BUY
                     </button>
+                    <br />
+                    <br />
+                    <div className="padding-top:15px flex flex-col">
+                        <div className="flex">
+                            <a
+                                href="https://twitter.com/KromatikaFi"
+                                className="social-icon button flex flex-col"
+                                width="50px"
+                                height="50px"
+                            >
+                                <img width="50px" height="50px" src={twiter} alt=""></img>
+                            </a>
+                            <a
+                                href="https://t.me/joinchat/09jBPxB1cl85OTBk"
+                                className="social-icon button flex flex-col"
+                                width="50px"
+                                height="50px"
+                            >
+                                <img width="50px" height="50px" src={telegram} alt=""></img>
+                            </a>
+                            <a
+                                href="https://instagram.com"
+                                className="social-icon button flex flex-col"
+                                width="50px"
+                                height="50px"
+                            >
+                                <img width="50px" height="50px" src={instagram} alt=""></img>
+                            </a>
+                            <a
+                                href="https://etherscan.io/token/0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789"
+                                className="social-icon button flex flex-col"
+                                width="50px"
+                                height="50px"
+                            >
+                                <img width="50px" height="50px" src={etherscan} alt=""></img>
+                            </a>
+                            <a
+                                href="https://coinmarketcap.com/currencies/kromatika/"
+                                className="social-icon button flex flex-col"
+                                width="50px"
+                                height="50px"
+                            >
+                                <img width="50px" height="50px" src={cmc} alt=""></img>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <StyleRoot>
                     <div
