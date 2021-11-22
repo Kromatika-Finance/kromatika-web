@@ -23,14 +23,14 @@ const Hero = ({ bounceInAnimation, executeScroll }) => {
                         fontWeight: '500'
                     }}
                 >
-                    KROMATIKA — next generation DEX Trading, powered by Uniswap and Chainlink
+                    KROMATIKA DEX TRADE
                 </h1>
                 <p
                     className="text-4xl mb-10 w-3/5 text-regular subpixel-antialiased leading-tight
 							                  leading-snug"
                 >
                     <br />
-                    Audited smart contracts for creating trades and processing them, all powered by Uniswap
+                    Next generation DEX crypto trading:
                     <br />
                     <br />
                     UI for interacting with KROMatika smart contracts
