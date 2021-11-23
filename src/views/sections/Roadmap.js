@@ -36,7 +36,7 @@ const Benefits = () => {
                             className="block-example border border-white container row col-md-6 gradient-pill token-table token-row tokenomics-section text-xl font-bold btn uppercase px-6 py-4 rounded-sm shadow
 								                    hover:shadow-xl bg-blue outline-none focus:outline-none lg:mr-1 lg:mb-0 mb-3 justify-center items-center"
                         >
-                            100,000,000
+                            80,000,000
                         </section>
                         <br />
                         Maximum Supply:
