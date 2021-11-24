@@ -122,6 +122,18 @@ const Navbar = () => {
                                 ANNOUNCEMENTS
                             </Link>
                         </li>
+                        <li className="flex items-center">
+                            <Link
+                                className="lg:text-white text-yellow px-3 py-4 lg:py-2 flex items-center text-xl
+                                uppercase font-bold link-underline"
+                                to={{
+                                    pathname: 'https://telegra.ph/FAQ-11-22-5'
+                                }}
+                                target="_blank"
+                            >
+                                FAQ
+                            </Link>
+                        </li>
                     </ul>
                     <StyleRoot>
                         <a
