@@ -37,6 +37,16 @@ const FooterComponent = () => {
                                     ROADMAP
                                 </Link>
                             </li>
+                            <li className="mb-2">
+                                <Link
+                                    to={{ pathname: 'https://telegra.ph/FAQ-11-22-5' }}
+                                    target="_blank"
+                                    className="border-b border-solid border-transparent hover:border-purple-800
+                                    hover:text-purple-800"
+                                >
+                                    FAQ
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                     <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 sm:mt-0">
@@ -65,16 +75,6 @@ const FooterComponent = () => {
                                     hover:text-purple-800"
                                 >
                                     Etherscan
-                                </Link>
-                            </li>
-                            <li className="mb-2">
-                                <Link
-                                    to={{ pathname: 'https://github.com/Kromatika-Finance/kromatika-web' }}
-                                    target="_blank"
-                                    className="border-b border-solid border-transparent hover:border-purple-800
-                                    hover:text-purple-800"
-                                >
-                                    Github
                                 </Link>
                             </li>
                         </ul>
