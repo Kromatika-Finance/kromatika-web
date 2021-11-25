@@ -1,4 +1,4 @@
-# Kromatika.finance
+# Kromatika.Finance
 
 This is the official website of kromatika.finance
 
