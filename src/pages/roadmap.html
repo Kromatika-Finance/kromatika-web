@@ -1,0 +1,89 @@
+---
+layout: default
+title: Roadmap
+---
+
+<div class="roadmap-wrapper">
+    <!-- Landing page Hero -->
+    <section class="hero is-medium">
+        <div class="hero-head">
+
+            <!-- Cloned navbar -->
+            {{> navbar-clone}}
+
+            <!-- Static navbar -->
+            {{> navbar}}
+
+        </div>
+
+        <div class="hero-body has-text-centered">
+            <div class="columns">
+                <div class="column is-6 is-offset-3">
+                    <div class="roadmap-image">
+                        <img src="/img/illustrations/world.svg">
+                    </div>
+                    <h1 class="title is-2 is-light is-semibold is-spaced main-title">Project Roadmap</h1>
+                    <h2 class="subtitle is-5 is-light is-thin">
+                        DEX Trading to the next level.
+                    </h2>
+                    <!-- CTA -->
+                    <p>
+                        <a href="https://kromatika-finance.medium.com/" class="button k-button k-primary raised has-gradient is-fat is-bold">
+                            <span class="text">More details</span>
+                            <span class="front-gradient"></span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section x-data="initRoadmap()" x-init="setupRoadmap()" id="roadmap" class="main-timeline">
+        <ul>
+            <li>
+                <div>
+                    <span class="item-title">Platform Launch</span>
+                    <time>November 2021</time> 
+                    <span class="item-content">
+                        KROM token launch live on Ethereum mainnet. Initial liquidity available for trading on Uniswap V3 MAINNET.
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <span class="item-title">DAPP Beta Launch</span>
+                    <time>November 2021</time> 
+                    <span class="item-content">
+                        DAPP Beta launch on Kovan testnet and Layer 2 testnet. Smart contract audit
+                    </span>
+                    </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span class="item-title">Launching the DAPP live</span>
+                            <time>December 2021</time> 
+                            <span class="item-content">
+                                Trading the token on Layer2. Launching the DAPP live on Layer 2: Arbitrum ONE and Optimism
+                            </span>
+                            </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span class="item-title">DAPP live on ETHereum</span>
+                                    <time>Jan 2022</time> 
+                                    <span class="item-content">
+                                        Launching the DAPP live on ETHereum mainnet.
+                                    </span>
+                                    </div>
+                                    </li>
+                </ul>
+        </ul>
+    </section>
+
+    <section>
+        <div class="roadmap-end">
+            <img src="/img/illustrations/roadmap-end.svg" alt="">
+        </div>
+    </section>
+
+</div>

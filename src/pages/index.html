@@ -1,0 +1,355 @@
+---
+layout: default
+title: Home
+---
+
+<div class="dark-wrapper">
+    <!-- Landing page Hero -->
+    <section class="hero is-fullheight is-transparent">
+        <div class="hero-head">
+
+            <!-- Cloned navbar -->
+            {{> navbar-clone}}
+
+            <!-- Static navbar -->
+            {{> navbar}}
+
+        </div>
+
+        <!-- Animated particles -->
+        <div x-data="initHero()" x-init="initParticles()" id="particles-js"></div>
+
+        <!-- Hero Image and Title -->
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered">
+
+                    <!-- Landing page Title -->
+                    <div class="column is-5 landing-caption">
+                        <h1 class="title is-1 is-light is-semibold is-spaced main-title">KROMATIKA DEX TRADE</h1>
+                        <h2 class="subtitle is-5 is-light is-thin">
+                            Next generation DEX crypto trading:
+                        </h2>
+                        <h2 class="subtitle is-5 is-light is-thin">
+                            NO Swap Fees
+                        </h2>
+                        <h2 class="subtitle is-5 is-light is-thin">
+                            NO Front-Running Bots
+                        </h2>
+                        <h2 class="subtitle is-5 is-light is-thin">
+                            NO Price Slippage
+                        </h2>
+                        <!-- CTA -->
+                        <p class="buttons">
+                            <a href="https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x3af33bEF05C2dCb3C7288b77fe1C8d2AeBA4d789" target="_blank" class="button k-button k-primary raised has-gradient is-fat is-bold">
+                                <span class="text">BUY NOW ON UNISWAP</span>
+                                <span class="front-gradient"></span>
+                            </a>
+                            <a href="howtobuy.html" target="_blank" class="button k-button k-primary raised has-gradient is-fat is-bold">
+                                <span class="text">HOW TO BUY</span>
+                                <span class="front-gradient"></span>
+                            </a>
+                            <div className="padding-top:15px flex flex-col">
+                            <a
+                            href="https://twitter.com/KromatikaFi"
+                            className="social-icon button flex flex-col"
+                            width="50px"
+                            height="50px"
+                        >
+                            <img width="50px" height="50px" src="/img/twitter@2x.png" alt=""></img>
+                        </a>
+                        <a
+                        href="https://instagram.com/kromatika.finance"
+                        className="social-icon button flex flex-col"
+                        width="50px"
+                        height="50px"
+                    >
+                        <img width="50px" height="50px" src="/img/insta@2x.png" alt=""></img>
+                    </a>
+                    <a
+                    href="https://etherscan.io/token/0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789"
+                    className="social-icon button flex flex-col"
+                    width="50px"
+                    height="50px"
+                >
+                    <img width="50px" height="50px" src="/img/etherscan@2x.png" alt=""></img>
+                </a>
+                <a
+                href="https://coinmarketcap.com/currencies/kromatika/"
+                className="social-icon button flex flex-col"
+                width="50px"
+                height="50px"
+            >
+                <img width="50px" height="50px" src="/img/cmc@2x.png" alt=""></img>
+            </a>
+                        </div>
+                        </p>
+
+                    </div>
+                    <!-- Hero image -->
+                    <div class="column is-7">
+                        <figure class="image">
+                            <img src="/img/illustrations/buildings.svg" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero footer -->
+        <div class="hero-foot">
+            <div class="container">
+                <div class="tabs is-centered">
+                    <!-- Client / partner list -->
+
+                       <p class="flex flex-col">
+                        <li><a href="https://www.coingecko.com/en/coins/kromatika" target="_blank"><img class="hero-logo" width="200" haight="200" src="/img/clients/coingeckowh.svg" alt=""></a></li>
+                        <li><a href="https://www.coingecko.com/en/coins/kromatika" target="_blank"><img class="hero-logo" src="/img/clients/dex2.webp" alt=""></a></li>
+                       </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Landing page Hero -->
+
+    <!-- Icon Features section -->
+    <section id="start" class="section is-transparent is-relative">
+        <!-- Container -->
+
+
+        <!-- /Container -->
+    </section>
+    <!-- /Icon Features section -->
+
+    <!-- Side Features section -->
+    <section id="big-gradient" class="section is-transparent">
+        <!-- Container -->
+        <div class="container">
+            <!-- Divider -->
+            <div class="divider is-centered"></div>
+            <!-- Title & subtitle -->
+            <h2 class="title is-light is-semibold has-text-centered is-spaced">KROMATIKA - Next Generation DEX Crypto Trading</h2>
+            <h4 class="subtitle is-6 is-light has-text-centered is-compact">Powered By UNISWAP and ChainLink</h4>
+
+            <!-- Content wrapper -->
+            <div class="content-wrapper is-large">
+                <div class="columns is-vcentered">
+
+                    <!-- Feature content -->
+                    <div class="column is-5 is-offset-1">
+                        <div class="side-feature-content">
+
+                            <h3 class="title is-4 is-light"><img src="/img/icons/ico/bitbanner.svg" alt=""> <span>Audited smart contracts</span></h3>
+                            <div class="divider is-long"></div>
+                            <p class="is-light">$KROM Token Has Audited smart contracts for creating trades and processing them, all powered by Uniswap.</p>
+                            <div class="cta-wrapper">
+                                <a href="token.html" target="_blank" class="button k-button k-primary raised has-gradient is-bold">
+                                    <span class="text">Learn More</span>
+                                    <span class="front-gradient"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feature image -->
+                    <div class="column is-7">
+                        <img class="side-feature" src="/img/illustrations/token.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="columns is-vcentered">
+                    <!-- Feature image desktop -->
+                    <div class="column is-7 is-hidden-mobile">
+                        <img class="side-feature" src="/img/illustrations/blockchain-blocks.svg" alt="">
+                    </div>
+
+                    <!-- Feature content -->
+                    <div class="column is-5">
+                        <div class="side-feature-content">
+
+                            <h3 class="title is-4 is-light"><img src="/img/icons/ico/bitnetwork.svg" alt=""> <span>Off-chain decentralized processing services</span></h3>
+                            <div class="divider is-long"></div>
+                            <p class="is-light">$KROM Token Has Off-chain decentralized processing services, responsible for active processing of the trades, powered by Chainlink Keepers.</p>
+                            <div class="cta-wrapper">
+                                <a href="https://kromatika-finance.medium.com/kromatika-launching-the-first-decentralized-limit-order-manager-powered-by-uniswap-and-961e0da4d15a" target="_blank" class="button k-button k-primary raised has-gradient is-bold">
+                                    <span class="text">Whitepaper</span>
+                                    <span class="front-gradient"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feature image only for mobile -->
+                    <div class="column is-7 is-hidden-desktop is-hidden-tablet">
+                        <img class="side-feature" src="/img/illustrations/blockchain-blocks.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="columns is-vcentered">
+                    <!-- Feature content -->
+                    <div class="column is-5 is-offset-1">
+                        <div class="side-feature-content">
+
+                            <h3 class="title is-4 is-light"><img src="/img/icons/ico/bitmining.svg" alt=""> <span>$KROM token</span></h3>
+                            <div class="divider is-long"></div>
+                            <p class="is-light">Utility ERC20 token used for paying the service fee. This fee is paid by the users and is used to cover the cost of the processing services (Chainlink Keepers).</p>
+                            <div class="cta-wrapper">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feature image -->
+                    <div class="column is-7">
+                        <img class="side-feature" src="/img/illustrations/crypto-mining.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- /Content wrapper -->
+        </div>
+        <!-- /Container -->
+    </section>
+    <!-- /Side Features section -->
+                <!-- Spaced divider -->
+                <div class="divider is-centered is-spacer"></div>
+                <!-- Title & subtitle -->
+                <h2 class="title is-light is-semibold has-text-centered is-spaced">FAQ</h2>
+
+                <!-- Content wrapper -->
+                <div class="content-wrapper is-large">
+                    <div class="columns">
+                        <div class="column is-5 is-offset-1">
+
+                            <!-- Accordion -->
+                            <div class="accordion">
+                                <!-- Option -->
+                                <div class="accordion-option">
+                                    <input type="checkbox" id="toggle1" class="accordion-toggle" />
+                                    <label class="accordion-title" for="toggle1">
+                                        What are KROM Tokenomics?
+                                    </label>
+                                    <div class="accordion-content">
+                                        <p>100M KROM tokens in existence. No rebasing, no burns. </p>
+                                        <p>60M (60%) available on Uniswap. This amount is forever locked on the Uniswap protocol since the original Uniswap LP token is burned. See <a href="https://info.uniswap.org/#/pools/0x6ae0cdc5d2b89a8dcb99ad6b3435b3e7f7290077" >proof.</a></p>
+                                        <p>20M (20%) is used to provide Layer 2 liquidity on Arbitrum and Optimism (10M each)</p>
+                                        <p>20M (20%) added on Gnosis, a multi-signature wallet.</p>
+                                    </div>
+                                </div>
+
+                                <!-- Option -->
+                                <div class="accordion-option">
+                                    <input type="checkbox" id="toggle2" class="accordion-toggle" />
+                                    <label class="accordion-title" for="toggle2">
+                                        Is KROM token a utility token?
+                                    </label>
+                                    <div class="accordion-content">
+                                        <p>Yes! KROM token is a utility token and it is used as a fee token for Kromatika DEX swaps. </p>
+                                    </div>
+                                </div>
+
+                                <!-- Option -->
+                                <div class="accordion-option">
+                                    <input type="checkbox" id="toggle3" class="accordion-toggle" />
+                                    <label class="accordion-title" for="toggle3">
+                                        How to use Kromatika DEX?
+                                    </label>
+                                    <div class="accordion-content">
+                                        <p>After connecting your MetaMask wallet and you have some KROM in your address you are ready to go. The swap interface is as straightforward as swapping on Uniswap, but with our added limit order field. Use this to set your limit orders for your trades and click SWAP. When the market has the conditions for your trades, Kromatika DEX will execute your trades automatically. You need to come back and manually claim your swaps. When there are multiple swaps to claim, you can use the batch feature to get them all in one transaction. </p>
+                                    </div>
+                                </div>
+
+                                <!-- Option -->
+                                <div class="accordion-option">
+                                    <input type="checkbox" id="toggle4" class="accordion-toggle" />
+                                    <label class="accordion-title" for="toggle4">
+                                        How to buy KROM token on Arbitrum?
+                                    </label>
+                                    <div class="accordion-content">
+                                        <p>First, you have to send ETH to the Arbitrum network (L2). You can do this using a centralized exchange like Binance that supports Arbitrum network transactions. Alternately you can use an ETH bridge Synapse to convert your ETH from the main et to Arbitrum network. After you have made the switch, you can use Uniswap to swap your Arbitrum ETH for the KROM token. </p>
+                                        <p>Tutorial <a href="https://telegra.ph/How-to-buy-KROM-using-Arbitrum-11-21" target="_blank">here</a></p>
+                                    </div>
+                                </div>
+
+                                <!-- Option -->
+                                <div class="accordion-option">
+                                    <input type="checkbox" id="toggle5" class="accordion-toggle" />
+                                    <label class="accordion-title" for="toggle5">
+                                        How does Kromatika DEX swaps work?
+                                    </label>
+                                    <div class="accordion-content">
+                                        <p>In the background, Kromatika always needs a fixed fee in ETH. This fixed fee is the actual gas cost of the trade processor (ChainLink Keepers) and it is dependant on the current gas fee. The user of Kromatika Swap can override this gas price and specify the gas price at which they want their trades to be executed. This in turn delays the trade execution a bit for the sake of lowering this fixed service fee. The user always pays this fee with KROM tokens. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Accordion -->
+                        </div>
+
+
+                        <div class="column is-5">
+
+                            <!-- Accordion -->
+                            <div class="accordion">
+                                <!-- Option -->
+                                <div class="accordion-option">
+                                    <input type="checkbox" id="toggle6" class="accordion-toggle" />
+                                    <label class="accordion-title" for="toggle6">
+                                        Is the KROM token code audited?
+                                    </label>
+                                    <div class="accordion-content">
+                                        <p>Yes! KROM token is a non-mintable ERC 20 token audited by OpenZeppelin and MythX. </p>
+                                    </div>
+                                </div>
+
+                                <!-- Option -->
+                                <div class="accordion-option">
+                                    <input type="checkbox" id="toggle7" class="accordion-toggle" />
+                                    <label class="accordion-title" for="toggle7">
+                                        Do I have to own a KROM token to use Kromatika DEX?
+                                    </label>
+                                    <div class="accordion-content">
+                                        <p>Yes! Kromatika DEX always uses KROM tokens to settle the transaction fee. </p>
+                                    </div>
+                                </div>
+
+                                <!-- Option -->
+                                <div class="accordion-option">
+                                    <input type="checkbox" id="toggle8" class="accordion-toggle" />
+                                    <label class="accordion-title" for="toggle8">
+                                        What is the KROM lifecycle loop?
+                                    </label>
+                                    <div class="accordion-content">
+                                        <p>When a trade is processed KROM is deducted from the user’s balance on the App and sold on the market for ETH which in turn is sent to the trade processor (Chain Link Keepers) to cover the gas cost. In this way KROM token circulates in a loop: Uniswap -> User -> Kromatika DEX -> Uniswap. </p>
+                                    </div>
+                                </div>
+
+                                <!-- Option -->
+                                <div class="accordion-option">
+                                    <input type="checkbox" id="toggle9" class="accordion-toggle" />
+                                    <label class="accordion-title" for="toggle9">
+                                        Is Kromatika code open-source?
+                                    </label>
+                                    <div class="accordion-content">
+                                        <p>Yes! All the code is open-sourced and published on GitHub under the MIT license. Anybody can see how it was developed, built and who has contributed with code over time. We also welcome open-source contributors.
+
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Option -->
+                                <div class="accordion-option">
+                                    <input type="checkbox" id="toggle10" class="accordion-toggle" />
+                                    <label class="accordion-title" for="toggle10">
+                                        What wallets does Kromatika DEX support?
+                                    </label>
+                                    <div class="accordion-content">
+                                        <p>Currently, the user can access the App using MetaMask. More wallet integrations will follow up in the future. Follow us on  <a href="https://twitter.com/KromatikaFi" target="_blank">Twitter</a> and be among the first to get important announcements and updates. Also, our <a href="https://discord.com/invite/Uv2Q2v26JG" target="_blank">Discord</a> server is a great place to get more informed about Kromatika DEX. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Accordion -->
+                        </div>
+                    </div>
+                </div>
+            <!-- /Content wrapper -->
+        </div>
+    </section>
