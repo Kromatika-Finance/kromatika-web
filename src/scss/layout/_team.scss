@@ -38,7 +38,7 @@ TABLE OF CONTENTS
         .avatar {
             text-align: center;
             position: relative;
-            height: 140px;
+            height: 500px;
             padding: 10px 0;
 
             //Svg circle wrapping image
@@ -63,8 +63,8 @@ TABLE OF CONTENTS
             //Member photo
             img {
                 position: absolute;
-                width: 100px;
-                height: 100px;
+                width: 500px;
+                height: 500px;
                 left: 0;
                 right: 0;
                 top: 50%;
@@ -138,12 +138,6 @@ TABLE OF CONTENTS
 
 //Container
 .advisor-container {
-    //image
-    img {
-        height: 70px;
-        width: 70px;
-        border-radius: 50%;
-    }
 
     //Meta
     .info {
