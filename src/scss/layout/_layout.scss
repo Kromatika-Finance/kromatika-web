@@ -28,7 +28,7 @@ body {
 ========================================================================== */
 
 .dark-wrapper {
-    background: url() repeat-y top left, url() repeat-y top right, #070a2e;
+    background: url() repeat-y top left, url() repeat-y top right, #000000;
 }
 
 .hero, .section {
@@ -197,7 +197,7 @@ body {
 
             //Dark modifier
             &.is-dark {
-                background: #070a2e !important;
+                background: #000000 !important;
 
                 a {
                     color: $white;
@@ -209,7 +209,7 @@ body {
 
                 .navbar-menu {
                     &.is-active {
-                        background: #070a2e !important;
+                        background: #000000 !important;
                     }
                 }
             }
@@ -284,19 +284,19 @@ body {
 
     //Background colors
     &.is-dark {
-        background: #3c019e;
+        background: #000000;
     }
 
     &.is-darker {
-        background: #320184;
+        background: #000000;
     }
 
     &.is-darkest {
-        background: #270068;
+        background: #000000;
     }
 
     &.is-end {
-        background: #1c004c;
+        background: #000000;
     }
 
     //Background shapes
@@ -312,12 +312,12 @@ body {
 
 //Radial gradient background
 .has-big-gradient {
-    background: url() no-repeat top left, url() no-repeat top right, #320184;
+    background: url() no-repeat top left, url() no-repeat top right, #000000;
 }
 
 //Dark radial gradient background
 .has-big-dark-gradient {
-    background: url() no-repeat top left, url() no-repeat top right, #1c004c;
+    background: url() no-repeat top left, url() no-repeat top right, #000000;
 }
 
 //CTA Spacing
@@ -357,7 +357,7 @@ body {
         padding: 10px;
         border-radius: 3px;
         color: $white;
-        background: darken(#1c004c, 5%);
+        background: darken(#000000, 5%);
         opacity: 0.7;
     }
 }
@@ -470,7 +470,7 @@ body {
 ========================================================================== */
 
 .token-wrapper {
-    background: url() no-repeat top center, url() no-repeat top left, url() no-repeat bottom right, #070a2e;
+    background: url() no-repeat top center, url() no-repeat top left, url() no-repeat bottom right, #000000;
 }
 
 .token-wrapper {
@@ -697,7 +697,7 @@ body {
 ========================================================================== */
 
 .roadmap-wrapper {
-    background: url() no-repeat top center, url() no-repeat top left, url() no-repeat bottom right, #070a2e;
+    background: url() no-repeat top center, url() no-repeat top left, url() no-repeat bottom right, #000000;
 }
 
 .roadmap-wrapper {
@@ -724,7 +724,7 @@ body {
             width: 1px;
             margin: 0 auto;
             padding-top: 50px;
-            background: rgba(0, 83, 251, 0.5);
+            background: rgba(0, 0, 0, 0.5);
             -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
             box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
 
@@ -739,7 +739,7 @@ body {
                 -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
                 box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
                 border-radius: 50%;
-                background: #070a2e;
+                background: #000000;
                 transform: translateX(-50%);
             }
         }
@@ -755,7 +755,7 @@ body {
             border-radius: 50%;
 
             //background: $light-blue;
-            background: rgba(0, 83, 251, 0.5);
+            background: rgba(0, 0, 0, 0.5);
         }
 
         ul li div {
@@ -765,7 +765,7 @@ body {
             border-radius: 1px;
             padding: 30px;
             color: $light-blue;
-            background: rgba(17, 149, 247, 0.08);
+            background: rgba(0, 0, 0, 0.08);
             border: 1px solid rgba(0, 83, 251, 0.5);
             -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
             box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
@@ -968,7 +968,7 @@ body {
 ========================================================================== */
 
 .media-wrapper {
-    background: url(../img/bg/gradient-left-darker.png) no-repeat top left, url(../img/bg/gradient-right-darker.png) no-repeat top right, #1c004c;
+    background: url() no-repeat top left, url() no-repeat top right, #000000;
 }
 
 .media-wrapper {
@@ -1110,7 +1110,7 @@ body {
             min-height: 40px;
             display: flex;
             align-items: center;
-            background: #1c004c;
+            background: #000000;
             color: $white;
             border-top: 1px solid lighten(#1c004c, 5%);
             position: absolute;
@@ -1127,7 +1127,7 @@ body {
         }
 
         .option:hover {
-            background: lighten(#1c004c, 2%);
+            background: lighten(#000000, 2%);
         }
 
         .select:focus .option {
@@ -1144,7 +1144,7 @@ body {
         input:checked + label {
             order: 1;
             z-index: 2;
-            background: #1c004c;
+            background: #000000;
             border-top: none;
             position: relative;
         }
@@ -1169,7 +1169,7 @@ body {
             height: 40px;
             width: 40px;
             content: '';
-            background: #1c004c;
+            background: #000000;
         }
     }
 
@@ -1368,7 +1368,7 @@ body {
 
                     .textarea {
                         width: 100%;
-                        background: rgba(17, 149, 247, 0.08);
+                        background: rgba(0, 0, 0, 0.08);
                         border: 1px solid rgba(0, 83, 251, 0.5);
                         color: $white;
                         font-size: .9rem;
