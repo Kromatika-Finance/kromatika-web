@@ -40,7 +40,7 @@ TABLE OF CONTENTS
     }
 
     &.is-theme {
-        background-image: linear-gradient(to bottom, #000000 0%, #000000b7 100%) !important;
+        background-image: linear-gradient(to bottom, #000000 50%, #000000b7 100%) !important;
     }
 
     &::after, &::before {

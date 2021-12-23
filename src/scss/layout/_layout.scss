@@ -284,19 +284,19 @@ body {
 
     //Background colors
     &.is-dark {
-        background: #000000;
+        background: #1a002c;
     }
 
     &.is-darker {
-        background: #000000;
+        background: #1a002c;
     }
 
     &.is-darkest {
-        background: #000000;
+        background: #1a002c;
     }
 
     &.is-end {
-        background: #000000;
+        background: #1a002c;
     }
 
     //Background shapes
@@ -312,12 +312,12 @@ body {
 
 //Radial gradient background
 .has-big-gradient {
-    background: url() no-repeat top left, url() no-repeat top right, #000000;
+    background: url() no-repeat top left, url() no-repeat top right, #1a002c;
 }
 
 //Dark radial gradient background
 .has-big-dark-gradient {
-    background: url() no-repeat top left, url() no-repeat top right, #000000;
+    background: url() no-repeat top left, url() no-repeat top right, #1a002c;
 }
 
 //CTA Spacing
@@ -357,7 +357,7 @@ body {
         padding: 10px;
         border-radius: 3px;
         color: $white;
-        background: darken(#000000, 5%);
+        background: darken(#1a002c, 5%);
         opacity: 0.7;
     }
 }
@@ -557,7 +557,7 @@ body {
     .token-documentation {
         padding: 60px 40px;
         transition: all .3s ease;
-        box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 10px 50px 0 rgba(162, 0, 255, 0.2);
 
         .documentation-title {
             padding-bottom: 20px;
@@ -725,8 +725,8 @@ body {
             margin: 0 auto;
             padding-top: 50px;
             background: rgba(0, 0, 0, 0.5);
-            -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
-            box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
+            -webkit-box-shadow: 0 2px 3px 0 rgba(0, 83, 251, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
+            box-shadow: 0 2px 3px 0 rgba(0, 83, 251, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
 
             &:before {
                 content: '';
@@ -736,10 +736,10 @@ body {
                 width: 32px;
                 height: 32px;
                 border: 1px solid rgba(0, 83, 251, 0.5);
-                -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
-                box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
+                -webkit-box-shadow: 0 2px 3px 0 rgba(0, 83, 251, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
+                box-shadow: 0 2px 3px 0 rgba(0, 83, 251, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.16);
                 border-radius: 50%;
-                background: #000000;
+                background: #3b0066;
                 transform: translateX(-50%);
             }
         }
@@ -1127,7 +1127,7 @@ body {
         }
 
         .option:hover {
-            background: lighten(#000000, 2%);
+            background: lighten(#1a002c, 2%);
         }
 
         .select:focus .option {
@@ -1144,7 +1144,7 @@ body {
         input:checked + label {
             order: 1;
             z-index: 2;
-            background: #000000;
+            background: #1a002c;
             border-top: none;
             position: relative;
         }
@@ -1169,7 +1169,7 @@ body {
             height: 40px;
             width: 40px;
             content: '';
-            background: #000000;
+            background: #1a002c;
         }
     }
 
